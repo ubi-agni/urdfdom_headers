@@ -198,7 +198,6 @@ public:
   LinkSharedPtr root_link_;
 
 
-
 };
 
 }
