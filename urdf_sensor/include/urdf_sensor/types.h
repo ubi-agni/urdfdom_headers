@@ -66,6 +66,9 @@ public:
   /// sensor name must be unique
   std::string name_;
 
+  /// optional group name
+  std::string group_;
+
   /// update rate in Hz
   double update_rate_;
 
@@ -81,6 +84,7 @@ public:
   void clear()
   {
     name_.clear();
+    group_.clear();
     parent_link_.clear();
     origin_.clear();
     sensor_.reset();
