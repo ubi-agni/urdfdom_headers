@@ -207,6 +207,14 @@ public:
   /// if more than one visual element is specified, all visual elements are placed in this array (the visual member points to the first element of the array)
   std::vector<VisualSharedPtr> visual_array;
 
+  /// deprecated; please use visual_array instead
+  __attribute__((deprecated))
+  std::map<std::string, boost::shared_ptr<std::vector<VisualSharedPtr > > > visual_groups;
+
+  /// deprecated; please use collision_array instead
+  __attribute__((deprecated))
+  std::map<std::string, boost::shared_ptr<std::vector<CollisionSharedPtr > > > collision_groups;
+
   /// Parent Joint element
   ///   explicitly stating "parent" because we want directional-ness for tree structure
   ///   every link can have one parent
