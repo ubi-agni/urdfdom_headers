@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>urdfdom_headers</name>
+  <version>0.4.2</version>
+  <description>ROS package for liburdfdom-headers</description>
+  <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
+  <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/urdf</url>
+  <url type="bugtracker">https://github.com/ros/urdfdom_headers/issues</url>
+  <url type="repository">https://github.com/ros/urdfdom_headers</url>
+  <author>Wim Meeussen</author>
+  <author>John Hsu</author>
+  <author>Ioan Sucan</author>
+
+  <build_depend>cmake</build_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+  
+</package>
