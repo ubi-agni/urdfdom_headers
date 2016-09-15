@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>urdfdom_headers</name>
-  <version>0.4.2</version>
+  <version>0.5.0</version>
   <description>ROS package for liburdfdom-headers</description>
   <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
   <maintainer email="hsu@osrfoundation.org">John Hsu</maintainer>
