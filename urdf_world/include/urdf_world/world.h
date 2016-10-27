@@ -75,10 +75,9 @@
 #include <map>
 #include <tinyxml.h>
 
-#include "urdf_model/model.h"
+#include "urdf_model/types.h"
 #include "urdf_model/pose.h"
 #include "urdf_model/twist.h"
-#include "urdf_world/types.h"
 
 namespace urdf{
 
@@ -110,4 +109,3 @@ public:
 }
 
 #endif
-
